@@ -130,8 +130,7 @@ In rare cases, multiple semi-colon separated sequence IDs are present, this i
 #### Binary tree in newick format.
     {input-filename}_{date}_{k}-mer.newick
 
-Internal nodes are named with AA triplet and +/- sign. Leafs are one (or rarely multiple "-"-separated) sequence IDs (ID is the sequence number `[0-n[` as read in order from fasta input file).
-
+Internal nodes are named with AA triplet and +/- sign. Leafs are one (or rarely multiple "-"-separated) sequence IDs (ID is the sequence number `[0-n[` as read in order from fasta input file). There are multiple online tools out there to visualize newick trees, however I have yet to find one that can handle a tree of the full human genome with k>=3 smoothly. [ITOL](https://itol.embl.de/) and [phylo.io](https://phylo.io/) work somewhat and so does [NCBI's Tree Viewer](https://www.ncbi.nlm.nih.gov/projects/treeview/) but their features are limited (e.g. can't label internal nodes). [Iroki](https://www.iroki.net/viewer) has the best features but can only visualize results from running a small subset of the whole proteome for debugging purposes.
 
 #### ASCII rendered representation of the binary tree
     {input-filename}_{date}_{k}-mer_tree.txt
