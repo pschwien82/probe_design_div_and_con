@@ -118,8 +118,8 @@ The output format looks like this:
 
     [...]
     29577        +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,-SMS,+LHS
-    29578	       +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,+SMS,-QVA
-    29576	       +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,+SMS,+QVA,-RGE
+    29578        +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,+SMS,-QVA
+    29576        +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,+SMS,+QVA,-RGE
     16371;16364  +LLL,+SLL,+ALL,+ASL,+VSL,+LST,+FLR,+LPK,+AEQ,+PQK,+IKL,+YLR,-MLG,-LAF,-FLC
     [...]
 The first column is the sequence ID of the protein (ID is the sequence number `[0-n[` as read in order from fasta input file) and the comma separated unique probe set for this sequence.
