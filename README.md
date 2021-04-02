@@ -32,7 +32,7 @@ optional arguments:
   --k K       set the probe's target size in amino acids
   --verbose   print progress information during divide & conquer
 ```
-For the proteome input file, I used [UniProt's latest reference proteome](https://www.uniprot.org/proteomes/UP000005640) including isoforms available at https://www.uniprot.org/uniprot/?include=true&format=fasta&force=true&query=proteome:UP000005640
+For the proteome input file, I used [UniProt's latest reference proteome](https://www.uniprot.org/proteomes/UP000005640) including isoforms available at https://www.uniprot.org/uniprot/?include=true&format=fasta&force=true&query=proteome:UP000005640. This file as well as a subsampled version (`UP000005640_mini.fasta` for development and testing) can also be found in the repository's `res/` folder.
 ```bash
 $ wget "https://www.uniprot.org/uniprot/?include=true&format=fasta&force=true&query=proteome:UP000005640" > UP000005640_plus_iso.fasta
 
@@ -110,7 +110,7 @@ Writing ASCII tree...
 Writing Newick tree...
 ```
 ### Output files:
-
+The actual output files for `k=3` can be found in the repository's `out/` folder.
 #### Primary result file
     {input-filename}_{date}_{k}-mer_run_results.txt
 
