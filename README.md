@@ -191,3 +191,6 @@ root
 ```
 ### Runtime & Memory
 For `k=3` a full execution takes about 8 minutes on my system with a peak memory requirement of 2 GB. For `k=4` it takes about 30 minutes and required 4GB peak. Less works of course too, but execution time will be slowed significantly by memory paging. I have not tested k>4.
+
+### Recursive vs Iterative
+Since the code uses a binary tree data structure, recursive methods are an elegant solution. However, I kept running into `max recursion depth exceeded` errors even after increasing the limits on my system because the tree is too deep due to the large number of sequences and kmers considered. Consequently I converted all tree-traversing functions to an iterative design, which are not limited by the system's recursion limit.
