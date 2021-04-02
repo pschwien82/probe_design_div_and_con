@@ -117,14 +117,14 @@ Writing Newick tree...
 The output format looks like this:
 
     [...]
-    29577        +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,-SMS,+LHS
-    29578        +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,+SMS,-QVA
-    29576        +LLL,+SLL,+ALL,+ASL,-VSL,-LLT,-SSS,+LLE,-SSL,+LLG,+LVP,-FLR,+TVL,+SMS,+QVA,-RGE
-    16371;16364  +LLL,+SLL,+ALL,+ASL,+VSL,+LST,+FLR,+LPK,+AEQ,+PQK,+IKL,+YLR,-MLG,-LAF,-FLC
+    16371;16364  sp|Q8WZ42-11|TITIN_HUMAN;sp|Q8WZ42-4|TITIN_HUMAN  +LLL,+SLL,+ALL,+ASL,+VSL,+LST,+FLR,+LPK,+AEQ,+PQK,+IKL,+YLR,-MLG,-LAF,-FLC
+    16367        sp|Q8WZ42-7|TITIN_HUMAN                           +LLL,+SLL,+ALL,+ASL,+VSL,+LST,+FLR,+LPK,+AEQ,+PQK,+IKL,+YLR,-MLG,-LAF,+FLC
+    428          sp|Q6PCD5|RFWD3_HUMAN                             +LLL,+SLL,+ALL,+ASL,+VSL,+LST,+FLR,+LPK,+AEQ,+PQK,+IKL,+YLR,-MLG,+LAF,-QSA
+    21418        sp|Q8TD57|DYH3_HUMAN                              +LLL,+SLL,+ALL,+ASL,+VSL,+LST,+FLR,+LPK,+AEQ,+PQK,+IKL,+YLR,-MLG,+LAF,+QSA
     [...]
 The first column is the sequence ID of the protein (ID is the sequence number `[0-n[` as read in order from fasta input file) and the comma separated unique probe set for this sequence.
 The +/- sign in front of the AA triplet (single AA code) symbolizes whether or not this probe will or will not cause a signal when hybridized with the sequence.
-In rare cases, multiple semi-colon separated sequence IDs are present, this indicates that these sequences could not be further resolved (see example row #4).
+In rare cases, multiple semi-colon separated sequence IDs are present, this indicates that these sequences could not be further resolved (see example row #1).
 
 
 #### Binary tree in newick format.
