@@ -189,3 +189,5 @@ root
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |           +-- 1586
 [...]
 ```
+### Runtime & Memory
+For `k=3` a full execution takes about 8 minutes on my system with a peak memory requirement of 2 GB. For `k=4` it takes about two hours and required 4GB peak. Less works of course too, but execution time will be slowed significantly by memory paging. I have not tested k>4.
